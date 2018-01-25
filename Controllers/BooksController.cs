@@ -7,10 +7,16 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Fisher.Bookstore.Controllers{
 
-    public class HomeController : Controller{
+
+    public class BooksController : Controller{
 
         public IActionResult Index(){
-            return Content("hello world");
+            return Content("book index");
+        }
+
+        public IActionResult New(){
+            return Content("book new");
         }
     }
+
 }
