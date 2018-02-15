@@ -1,11 +1,10 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System;
-using System.Collections.Generic;
 using Fisher.BookStore.Models;
+using System.Collections.Generic;
 
-namespace Fisher.BookStore.RazorPages
+namespace Fisher.BookStore.Pages
 {
-
     public class Books : PageModel
     {
 
